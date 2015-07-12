@@ -822,7 +822,7 @@ Long.prototype.getBuffer = function() {
 
 exports.Long = Long;
 }).call(this,require("buffer").Buffer)
-},{"../goog/long.js":1,"buffer":3}],"/node-nbt/lib/nbt.js":[function(require,module,exports){
+},{"../goog/long.js":1,"buffer":3}],"/lib/nbt.js":[function(require,module,exports){
 (function (Buffer){
 var Long = require('./long-wrapper').Long;
 
@@ -2807,5 +2807,5 @@ module.exports = isArray || function (val) {
   return !! val && '[object Array]' == str.call(val);
 };
 
-},{}]},{},[])("/node-nbt/lib/nbt.js")
+},{}]},{},[])("/lib/nbt.js")
 });
